@@ -4,7 +4,7 @@
 # Configurations
 > ***Master-Configuration***
 
-![VESC-Configuration](https://user-images.githubusercontent.com/65481797/229056686-152245b1-4a9a-4069-86e9-be0e726ace54.png)
+![VESC-Configuration](https://user-images.githubusercontent.com/65481797/229056686-152245b1-4a9a-4069-86e9-be0e726ace54.png)"/n"
 ![VESC-Configuration](https://user-images.githubusercontent.com/65481797/229056798-14a92557-35e2-4766-9539-b5d940b901c2.png)
 
 > ***Slave-Configuration***
