@@ -9,3 +9,7 @@
 ![VESC-Configuration](https://user-images.githubusercontent.com/65481797/229056798-14a92557-35e2-4766-9539-b5d940b901c2.png)
 
 > ***Slave-Configuration***
+
+![VESC-Configuration](https://user-images.githubusercontent.com/65481797/229058163-9ce41101-2102-431c-ac6d-66804a808249.png)
+
+![VESC-Configuration](https://user-images.githubusercontent.com/65481797/229058485-b532c612-6afd-4c86-a3a3-dcdcca7aecb1.png)
