@@ -7,7 +7,7 @@
 
 # Example code snippet
 
-`
+```ino
 #include "VescUart.h"
 #define LEFT_BLDC 1
 VescUart bldc;
@@ -25,7 +25,7 @@ void loop()
     bldc.setRPM(40000);
     bldc.setRPM(2000, LEFT_BLDC);
 }
-`
+```
 
 # Configurations
 * ***Master-Configuration***
