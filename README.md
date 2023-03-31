@@ -1,6 +1,10 @@
 # VESC-UART-CAN-Forward
 * The ***VESC-UART-CAN-Forward*** library enables communication between VESCs over the UART interface. It does not require multiple UARTs for communication between VESCs. The library provides a method to forward the UART messages over the CAN bus for inter-CAN communication between multiple VESCs.
 
+* In the VESC-UART-CAN-Forward setup, one VESC is configured as the master and the other VESCs are configured as slaves. The master VESC communicates with the other VESCs over the UART interface, and the messages can be forwarded over the CAN bus to enable inter-CAN communication between multiple VESCs.
+
+* To set up the hardware connection, you need to connect the UART pins (TX and RX) of the master VESC.In addition, you need to connect the CAN high and low wires of all the VESCs together to enable inter-CAN communication.
+
 # Configurations
 * ***Master-Configuration***
 
