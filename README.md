@@ -9,7 +9,7 @@
 
 ```ino
 #include "VescUart.h"
-#define LEFT_BLDC 1
+#define LEFT_BLDC 1 //CAN ID of The slave VESC
 VescUart bldc;
 void setup()
 {
