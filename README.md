@@ -5,6 +5,28 @@
 
 * To set up the hardware connection, you need to connect the UART pins (TX and RX) of the master VESC.In addition, you need to connect the CAN high and low wires of all the VESCs together to enable inter-CAN communication.
 
+# Example code snippet
+
+```
+#include "VescUart.h"
+#define LEFT_BLDC 1
+VescUart bldc;
+void setup()
+{
+
+    Serial.begin(115200);
+    Serial2.begin(115200);
+    bldc.setSerialPort(&Serial2);
+
+}
+
+void loop()
+{
+    bldc.setRPM(40000);
+    bldc.setRPM(2000, LEFT_BLDC);
+}
+```
+
 # Configurations
 * ***Master-Configuration***
 
