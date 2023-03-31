@@ -28,6 +28,8 @@ void loop()
 ```
 
 # Configurations
+* The master VESC should have the lower CAN ID than the other slave VESCs. This is because CAN bus communication prioritizes messages from the device with the lower CAN ID in case of conflicting messages.
+
 * ***Master-Configuration***
 
 ![VESC-Configuration](https://user-images.githubusercontent.com/65481797/229056686-152245b1-4a9a-4069-86e9-be0e726ace54.png)
